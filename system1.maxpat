@@ -103,17 +103,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-105",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 67.5, 339.0, 36.0, 22.0 ],
-					"text" : "s tick"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-238",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1972,7 +1961,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 24.0, 516.0, 135.0, 22.0 ],
 					"restore" : 					{
-						"bpm" : [ 144 ],
+						"bpm" : [ 62 ],
 						"button" : [ 1.0 ],
 						"button[1]" : [ 0.0 ],
 						"button[2]" : [ 0.0 ],
@@ -1990,29 +1979,29 @@
 						"dial[8]" : [ 48 ],
 						"live.grid" : [ 3, 8, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2 ],
 						"live.grid[1]" : [ 3, 8, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2 ],
-						"multislider" : [ 1, 1, 2, 1, 1, 1, 1, 1 ],
-						"multislider[1]" : [ 2, 2, 2, 2, 3, 3, 4, 3 ],
-						"multislider[2]" : [ 5, 5, 6, 5, 6, 6, 6, 6 ],
-						"number" : [ 1 ],
+						"multislider" : [ 4, 4, 4, 4, 4, 4, 4, 4 ],
+						"multislider[1]" : [ 2, 2, 2, 2, 2, 2, 2, 2 ],
+						"multislider[2]" : [ 2, 1, 1, 1, 1, 1, 1, 1 ],
+						"number" : [ 3 ],
 						"number[1]" : [ 8 ],
-						"number[2]" : [ 5 ],
-						"number[3]" : [ 1 ],
+						"number[2]" : [ 1 ],
+						"number[3]" : [ 2 ],
 						"number[4]" : [ 3 ],
-						"number[5]" : [ 2 ],
+						"number[5]" : [ 1 ],
 						"number[6]" : [ 1 ],
 						"number[7]" : [ 2 ],
 						"number[8]" : [ 127 ],
-						"periodDuration" : [ 5 ],
-						"periodSteps" : [ 23 ],
-						"radiogroup" : [ 2 ],
+						"periodDuration" : [ 1 ],
+						"periodSteps" : [ 2121 ],
+						"radiogroup" : [ 3 ],
 						"radiogroup[1]" : [ 1 ],
 						"radiogroup[2]" : [ 2 ],
-						"radiogroup[3]" : [ 3 ],
-						"repsPerStepDirection" : [ 1 ],
-						"stepsPerMeasureDirection" : [ 1 ],
-						"toggle" : [ 0 ],
-						"toggle[1]" : [ 1 ],
-						"toggle[2]" : [ 1 ],
+						"radiogroup[3]" : [ 0 ],
+						"repsPerStepDirection" : [ 0 ],
+						"stepsPerMeasureDirection" : [ 0 ],
+						"toggle" : [ 1 ],
+						"toggle[1]" : [ 0 ],
+						"toggle[2]" : [ 0 ],
 						"toggle[3]" : [ 1 ],
 						"toggle[4]" : [ 1 ],
 						"umenu" : [ 1 ],
@@ -2642,7 +2631,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 681.0, 596.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 3,
+					"value" : 0,
 					"varname" : "radiogroup[3]"
 				}
 
@@ -3592,7 +3581,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 773.0, 253.0, 1013.0, 714.0 ],
+						"rect" : [ 923.0, 291.0, 1013.0, 714.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3857,7 +3846,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 568.0, 596.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 2,
+					"value" : 3,
 					"varname" : "radiogroup"
 				}
 
@@ -3971,9 +3960,9 @@
 										"button[6]" : [ 1.0 ],
 										"button[7]" : [ 1.0 ],
 										"button[8]" : [ 1.0 ],
-										"multislider" : [ 1, 1, 2, 1, 1, 1, 1, 1 ],
-										"multislider[1]" : [ 2, 2, 2, 2, 3, 3, 4, 3 ],
-										"number" : [ 1 ],
+										"multislider" : [ 4, 4, 4, 4, 4, 4, 4, 4 ],
+										"multislider[1]" : [ 2, 2, 2, 2, 2, 2, 2, 2 ],
+										"number" : [ 2 ],
 										"periodLengthCountResetValue" : [ 1 ],
 										"periodOffToggleValue" : [ 0 ],
 										"periodOnToggleValue" : [ 1 ],
@@ -5224,7 +5213,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 870.0, 90.0, 18.0, 50.0 ],
 					"size" : 3,
-					"value" : 1,
+					"value" : 0,
 					"varname" : "stepsPerMeasureDirection"
 				}
 
@@ -5241,7 +5230,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 493.5, 90.0, 18.0, 50.0 ],
 					"size" : 3,
-					"value" : 1,
+					"value" : 0,
 					"varname" : "repsPerStepDirection"
 				}
 
@@ -6133,15 +6122,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-105", 0 ],
-					"order" : 0,
 					"source" : [ "obj-17", 0 ]
 				}
 
