@@ -1,4 +1,4 @@
-# Cat Drugs
+# System1
 
 A Max sequencer/instrument. 
 
