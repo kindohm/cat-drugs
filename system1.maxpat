@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 459.0, 469.0, 44.0, 22.0 ],
+					"text" : "decide"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 440.0, 426.0, 72.0, 22.0 ],
+					"text" : "r randomize"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -320,7 +344,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1820.0, 331.0, 50.0, 22.0 ],
-					"text" : "4"
+					"text" : "6"
 				}
 
 			}
@@ -380,7 +404,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1453.25, 339.0, 50.0, 22.0 ],
-					"text" : "9"
+					"text" : "66"
 				}
 
 			}
@@ -962,18 +986,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-238",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 395.0, 898.0, 29.5, 22.0 ],
-					"text" : "+ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-236",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1027,42 +1039,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 635.0, 10.0, 72.0, 22.0 ],
-					"text" : "r randomize"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-232",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 412.0, 856.0, 37.0, 22.0 ],
-					"text" : "* 126"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-231",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 374.0, 825.0, 44.0, 22.0 ],
-					"text" : "decide"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-230",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.0, 772.0, 72.0, 22.0 ],
 					"text" : "r randomize"
 				}
 
@@ -2785,47 +2761,47 @@
 					"patching_rect" : [ 29.0, 18.0, 90.0, 70.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 99, 5, "obj-79", "number", "int", 2, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 0, 5, "obj-44", "radiogroup", "int", 0, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 3, 12, "obj-63", "multislider", "list", 4, 3, 2, 2, 2, 2, 2, 2, 12, "obj-65", "multislider", "list", 2, 3, 4, 2, 1, 1, 4, 4, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 0, 12, "obj-117", "multislider", "list", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-136", "number", "int", 1, 5, "obj-140", "radiogroup", "int", 1, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 2, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 2, 5, "obj-62", "toggle", "int", 0, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 22, 5, "obj-21", "number", "int", 3, 5, "obj-14", "number", "int", 127 ]
+							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 99, 5, "obj-79", "number", "int", 2, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 0, 5, "obj-44", "radiogroup", "int", 0, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 3, 12, "obj-63", "multislider", "list", 4, 3, 2, 2, 2, 2, 2, 2, 12, "obj-65", "multislider", "list", 2, 3, 4, 2, 1, 1, 4, 4, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 0, 12, "obj-117", "multislider", "list", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-136", "number", "int", 1, 5, "obj-140", "radiogroup", "int", 1, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 2, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 2, 5, "obj-62", "toggle", "int", 0, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 22, 5, "obj-21", "number", "int", 3, 5, "<invalid>", "number", "int", 127 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 136, 5, "obj-79", "number", "int", 1, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 0, 5, "obj-44", "radiogroup", "int", 0, 5, "obj-36", "number", "int", 3, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 1, 2, 3, 2, 2, 2, 2, 2, 12, "obj-65", "multislider", "list", 4, 4, 4, 4, 1, 1, 4, 4, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 0, 12, "obj-117", "multislider", "list", 3, 3, 2, 2, 2, 1, 1, 1, 5, "obj-136", "number", "int", 1, 5, "obj-140", "radiogroup", "int", 1, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 3, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 0, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 86, 5, "obj-21", "number", "int", 9, 5, "obj-14", "number", "int", 127 ]
+							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 136, 5, "obj-79", "number", "int", 1, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 0, 5, "obj-44", "radiogroup", "int", 0, 5, "obj-36", "number", "int", 3, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 1, 2, 3, 2, 2, 2, 2, 2, 12, "obj-65", "multislider", "list", 4, 4, 4, 4, 1, 1, 4, 4, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 0, 12, "obj-117", "multislider", "list", 3, 3, 2, 2, 2, 1, 1, 1, 5, "obj-136", "number", "int", 1, 5, "obj-140", "radiogroup", "int", 1, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 3, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 0, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 86, 5, "obj-21", "number", "int", 9, 5, "<invalid>", "number", "int", 127 ]
 						}
 , 						{
 							"number" : 4,
-							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 125, 5, "obj-79", "number", "int", 7, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 1, 5, "obj-44", "radiogroup", "int", 1, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 7, 8, 7, 8, 8, 7, 7, 7, 12, "obj-65", "multislider", "list", 1, 1, 1, 1, 1, 1, 2, 2, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 1, 1, 1, 1, 2, 2, 2, 2, 5, "obj-136", "number", "int", 2, 5, "obj-140", "radiogroup", "int", 1, 5, "obj-139", "toggle", "int", 1, 5, "obj-137", "number", "int", 3, 5, "obj-144", "radiogroup", "int", 1, 5, "obj-143", "toggle", "int", 1, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 2, 5, "obj-62", "toggle", "int", 0, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 28, 5, "obj-21", "number", "int", 6, 5, "obj-14", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 49.0, 5, "obj-95", "dial", "float", 7.0, 5, "obj-99", "dial", "float", 87.0, 5, "obj-122", "dial", "float", 125.0, 5, "obj-130", "dial", "float", 78.0, 5, "obj-145", "dial", "float", 23.0, 5, "obj-150", "dial", "float", 16.0, 5, "obj-155", "dial", "float", 13.0, 5, "obj-164", "dial", "float", 28.0, 5, "obj-179", "live.grid", "mode", 0, 5, "obj-179", "live.grid", "matrixmode", 1, 5, "obj-179", "live.grid", "columns", 8, 5, "obj-179", "live.grid", "rows", 1, 6, "obj-179", "live.grid", "constraint", 1, 1, 6, "obj-179", "live.grid", "constraint", 2, 1, 6, "obj-179", "live.grid", "constraint", 3, 1, 6, "obj-179", "live.grid", "constraint", 4, 1, 6, "obj-179", "live.grid", "constraint", 5, 1, 6, "obj-179", "live.grid", "constraint", 6, 1, 6, "obj-179", "live.grid", "constraint", 7, 1, 6, "obj-179", "live.grid", "constraint", 8, 1, 4, "obj-179", "live.grid", "clear", 12, "obj-179", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-181", "live.grid", "mode", 0, 5, "obj-181", "live.grid", "matrixmode", 1, 5, "obj-181", "live.grid", "columns", 8, 5, "obj-181", "live.grid", "rows", 1, 6, "obj-181", "live.grid", "constraint", 1, 1, 6, "obj-181", "live.grid", "constraint", 2, 1, 6, "obj-181", "live.grid", "constraint", 3, 1, 6, "obj-181", "live.grid", "constraint", 4, 1, 6, "obj-181", "live.grid", "constraint", 5, 1, 6, "obj-181", "live.grid", "constraint", 6, 1, 6, "obj-181", "live.grid", "constraint", 7, 1, 6, "obj-181", "live.grid", "constraint", 8, 1, 4, "obj-181", "live.grid", "clear", 12, "obj-181", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 12, "obj-184", "multislider", "list", 11, 56, 41, 71, 28, 6, 15, 3, 12, "obj-246", "multislider", "list", 8, 9, 6, 2, 6, 4, 3, 8, 5, "obj-248", "live.grid", "mode", 0, 5, "obj-248", "live.grid", "matrixmode", 1, 5, "obj-248", "live.grid", "columns", 8, 5, "obj-248", "live.grid", "rows", 1, 6, "obj-248", "live.grid", "constraint", 1, 1, 6, "obj-248", "live.grid", "constraint", 2, 1, 6, "obj-248", "live.grid", "constraint", 3, 1, 6, "obj-248", "live.grid", "constraint", 4, 1, 6, "obj-248", "live.grid", "constraint", 5, 1, 6, "obj-248", "live.grid", "constraint", 6, 1, 6, "obj-248", "live.grid", "constraint", 7, 1, 6, "obj-248", "live.grid", "constraint", 8, 1, 4, "obj-248", "live.grid", "clear", 12, "obj-248", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 125, 5, "obj-79", "number", "int", 7, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 1, 5, "obj-44", "radiogroup", "int", 1, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 7, 8, 7, 8, 8, 7, 7, 7, 12, "obj-65", "multislider", "list", 1, 1, 1, 1, 1, 1, 2, 2, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 1, 1, 1, 1, 2, 2, 2, 2, 5, "obj-136", "number", "int", 2, 5, "obj-140", "radiogroup", "int", 1, 5, "obj-139", "toggle", "int", 1, 5, "obj-137", "number", "int", 3, 5, "obj-144", "radiogroup", "int", 1, 5, "obj-143", "toggle", "int", 1, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 2, 5, "obj-62", "toggle", "int", 0, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 28, 5, "obj-21", "number", "int", 6, 5, "<invalid>", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 49.0, 5, "obj-95", "dial", "float", 7.0, 5, "obj-99", "dial", "float", 87.0, 5, "obj-122", "dial", "float", 125.0, 5, "obj-130", "dial", "float", 78.0, 5, "obj-145", "dial", "float", 23.0, 5, "obj-150", "dial", "float", 16.0, 5, "obj-155", "dial", "float", 13.0, 5, "obj-164", "dial", "float", 28.0, 5, "obj-179", "live.grid", "mode", 0, 5, "obj-179", "live.grid", "matrixmode", 1, 5, "obj-179", "live.grid", "columns", 8, 5, "obj-179", "live.grid", "rows", 1, 6, "obj-179", "live.grid", "constraint", 1, 1, 6, "obj-179", "live.grid", "constraint", 2, 1, 6, "obj-179", "live.grid", "constraint", 3, 1, 6, "obj-179", "live.grid", "constraint", 4, 1, 6, "obj-179", "live.grid", "constraint", 5, 1, 6, "obj-179", "live.grid", "constraint", 6, 1, 6, "obj-179", "live.grid", "constraint", 7, 1, 6, "obj-179", "live.grid", "constraint", 8, 1, 4, "obj-179", "live.grid", "clear", 12, "obj-179", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-181", "live.grid", "mode", 0, 5, "obj-181", "live.grid", "matrixmode", 1, 5, "obj-181", "live.grid", "columns", 8, 5, "obj-181", "live.grid", "rows", 1, 6, "obj-181", "live.grid", "constraint", 1, 1, 6, "obj-181", "live.grid", "constraint", 2, 1, 6, "obj-181", "live.grid", "constraint", 3, 1, 6, "obj-181", "live.grid", "constraint", 4, 1, 6, "obj-181", "live.grid", "constraint", 5, 1, 6, "obj-181", "live.grid", "constraint", 6, 1, 6, "obj-181", "live.grid", "constraint", 7, 1, 6, "obj-181", "live.grid", "constraint", 8, 1, 4, "obj-181", "live.grid", "clear", 12, "obj-181", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 12, "obj-184", "multislider", "list", 11, 56, 41, 71, 28, 6, 15, 3, 12, "obj-246", "multislider", "list", 8, 9, 6, 2, 6, 4, 3, 8, 5, "obj-248", "live.grid", "mode", 0, 5, "obj-248", "live.grid", "matrixmode", 1, 5, "obj-248", "live.grid", "columns", 8, 5, "obj-248", "live.grid", "rows", 1, 6, "obj-248", "live.grid", "constraint", 1, 1, 6, "obj-248", "live.grid", "constraint", 2, 1, 6, "obj-248", "live.grid", "constraint", 3, 1, 6, "obj-248", "live.grid", "constraint", 4, 1, 6, "obj-248", "live.grid", "constraint", 5, 1, 6, "obj-248", "live.grid", "constraint", 6, 1, 6, "obj-248", "live.grid", "constraint", 7, 1, 6, "obj-248", "live.grid", "constraint", 8, 1, 4, "obj-248", "live.grid", "clear", 12, "obj-248", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1 ]
 						}
 , 						{
 							"number" : 5,
-							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 267, 5, "obj-79", "number", "int", 2, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 2, 5, "obj-44", "radiogroup", "int", 2, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 6, 5, 5, 6, 5, 6, 6, 6, 12, "obj-65", "multislider", "list", 4, 4, 3, 4, 4, 4, 3, 2, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 0, 12, "obj-117", "multislider", "list", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-136", "number", "int", 2, 5, "obj-140", "radiogroup", "int", 1, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 3, 5, "obj-144", "radiogroup", "int", 1, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 2, 5, "obj-62", "toggle", "int", 0, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 55, 5, "obj-21", "number", "int", 7, 5, "obj-14", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 65.0, 5, "obj-95", "dial", "float", 50.0, 5, "obj-99", "dial", "float", 4.0, 5, "obj-122", "dial", "float", 32.0, 5, "obj-130", "dial", "float", 43.0, 5, "obj-145", "dial", "float", 4.0, 5, "obj-150", "dial", "float", 19.0, 5, "obj-155", "dial", "float", 114.0, 5, "obj-164", "dial", "float", 71.0, 5, "obj-179", "live.grid", "mode", 0, 5, "obj-179", "live.grid", "matrixmode", 1, 5, "obj-179", "live.grid", "columns", 8, 5, "obj-179", "live.grid", "rows", 1, 6, "obj-179", "live.grid", "constraint", 1, 1, 6, "obj-179", "live.grid", "constraint", 2, 1, 6, "obj-179", "live.grid", "constraint", 3, 1, 6, "obj-179", "live.grid", "constraint", 4, 1, 6, "obj-179", "live.grid", "constraint", 5, 1, 6, "obj-179", "live.grid", "constraint", 6, 1, 6, "obj-179", "live.grid", "constraint", 7, 1, 6, "obj-179", "live.grid", "constraint", 8, 1, 4, "obj-179", "live.grid", "clear", 12, "obj-179", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-181", "live.grid", "mode", 0, 5, "obj-181", "live.grid", "matrixmode", 1, 5, "obj-181", "live.grid", "columns", 8, 5, "obj-181", "live.grid", "rows", 1, 6, "obj-181", "live.grid", "constraint", 1, 1, 6, "obj-181", "live.grid", "constraint", 2, 1, 6, "obj-181", "live.grid", "constraint", 3, 1, 6, "obj-181", "live.grid", "constraint", 4, 1, 6, "obj-181", "live.grid", "constraint", 5, 1, 6, "obj-181", "live.grid", "constraint", 6, 1, 6, "obj-181", "live.grid", "constraint", 7, 1, 6, "obj-181", "live.grid", "constraint", 8, 1, 4, "obj-181", "live.grid", "clear", 12, "obj-181", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 12, "obj-184", "multislider", "list", 6, 55, 13, 69, 39, 72, 50, 64, 12, "obj-246", "multislider", "list", 4, 7, 2, 2, 7, 5, 3, 9, 5, "obj-248", "live.grid", "mode", 0, 5, "obj-248", "live.grid", "matrixmode", 1, 5, "obj-248", "live.grid", "columns", 8, 5, "obj-248", "live.grid", "rows", 1, 6, "obj-248", "live.grid", "constraint", 1, 1, 6, "obj-248", "live.grid", "constraint", 2, 1, 6, "obj-248", "live.grid", "constraint", 3, 1, 6, "obj-248", "live.grid", "constraint", 4, 1, 6, "obj-248", "live.grid", "constraint", 5, 1, 6, "obj-248", "live.grid", "constraint", 6, 1, 6, "obj-248", "live.grid", "constraint", 7, 1, 6, "obj-248", "live.grid", "constraint", 8, 1, 4, "obj-248", "live.grid", "clear", 12, "obj-248", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 267, 5, "obj-79", "number", "int", 2, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 2, 5, "obj-44", "radiogroup", "int", 2, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 6, 5, 5, 6, 5, 6, 6, 6, 12, "obj-65", "multislider", "list", 4, 4, 3, 4, 4, 4, 3, 2, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 0, 12, "obj-117", "multislider", "list", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-136", "number", "int", 2, 5, "obj-140", "radiogroup", "int", 1, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 3, 5, "obj-144", "radiogroup", "int", 1, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 2, 5, "obj-62", "toggle", "int", 0, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 55, 5, "obj-21", "number", "int", 7, 5, "<invalid>", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 65.0, 5, "obj-95", "dial", "float", 50.0, 5, "obj-99", "dial", "float", 4.0, 5, "obj-122", "dial", "float", 32.0, 5, "obj-130", "dial", "float", 43.0, 5, "obj-145", "dial", "float", 4.0, 5, "obj-150", "dial", "float", 19.0, 5, "obj-155", "dial", "float", 114.0, 5, "obj-164", "dial", "float", 71.0, 5, "obj-179", "live.grid", "mode", 0, 5, "obj-179", "live.grid", "matrixmode", 1, 5, "obj-179", "live.grid", "columns", 8, 5, "obj-179", "live.grid", "rows", 1, 6, "obj-179", "live.grid", "constraint", 1, 1, 6, "obj-179", "live.grid", "constraint", 2, 1, 6, "obj-179", "live.grid", "constraint", 3, 1, 6, "obj-179", "live.grid", "constraint", 4, 1, 6, "obj-179", "live.grid", "constraint", 5, 1, 6, "obj-179", "live.grid", "constraint", 6, 1, 6, "obj-179", "live.grid", "constraint", 7, 1, 6, "obj-179", "live.grid", "constraint", 8, 1, 4, "obj-179", "live.grid", "clear", 12, "obj-179", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-181", "live.grid", "mode", 0, 5, "obj-181", "live.grid", "matrixmode", 1, 5, "obj-181", "live.grid", "columns", 8, 5, "obj-181", "live.grid", "rows", 1, 6, "obj-181", "live.grid", "constraint", 1, 1, 6, "obj-181", "live.grid", "constraint", 2, 1, 6, "obj-181", "live.grid", "constraint", 3, 1, 6, "obj-181", "live.grid", "constraint", 4, 1, 6, "obj-181", "live.grid", "constraint", 5, 1, 6, "obj-181", "live.grid", "constraint", 6, 1, 6, "obj-181", "live.grid", "constraint", 7, 1, 6, "obj-181", "live.grid", "constraint", 8, 1, 4, "obj-181", "live.grid", "clear", 12, "obj-181", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 12, "obj-184", "multislider", "list", 6, 55, 13, 69, 39, 72, 50, 64, 12, "obj-246", "multislider", "list", 4, 7, 2, 2, 7, 5, 3, 9, 5, "obj-248", "live.grid", "mode", 0, 5, "obj-248", "live.grid", "matrixmode", 1, 5, "obj-248", "live.grid", "columns", 8, 5, "obj-248", "live.grid", "rows", 1, 6, "obj-248", "live.grid", "constraint", 1, 1, 6, "obj-248", "live.grid", "constraint", 2, 1, 6, "obj-248", "live.grid", "constraint", 3, 1, 6, "obj-248", "live.grid", "constraint", 4, 1, 6, "obj-248", "live.grid", "constraint", 5, 1, 6, "obj-248", "live.grid", "constraint", 6, 1, 6, "obj-248", "live.grid", "constraint", 7, 1, 6, "obj-248", "live.grid", "constraint", 8, 1, 4, "obj-248", "live.grid", "clear", 12, "obj-248", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1 ]
 						}
 , 						{
 							"number" : 6,
-							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 179, 5, "obj-79", "number", "int", 3, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 0, 5, "obj-44", "radiogroup", "int", 0, 5, "obj-36", "number", "int", 2, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 4, 5, 4, 4, 4, 4, 4, 3, 12, "obj-65", "multislider", "list", 8, 7, 7, 7, 7, 6, 5, 5, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 2, 1, 1, 1, 1, 2, 2, 2, 5, "obj-136", "number", "int", 3, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 3, 5, "obj-144", "radiogroup", "int", 1, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 2, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 11, 5, "obj-21", "number", "int", 6, 5, "obj-14", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 64.0, 5, "obj-95", "dial", "float", 34.0, 5, "obj-99", "dial", "float", 85.0, 5, "obj-122", "dial", "float", 92.0, 5, "obj-130", "dial", "float", 81.0, 5, "obj-145", "dial", "float", 64.0, 5, "obj-150", "dial", "float", 113.0, 5, "obj-155", "dial", "float", 101.0, 5, "obj-164", "dial", "float", 17.0, 5, "obj-179", "live.grid", "mode", 0, 5, "obj-179", "live.grid", "matrixmode", 1, 5, "obj-179", "live.grid", "columns", 8, 5, "obj-179", "live.grid", "rows", 1, 6, "obj-179", "live.grid", "constraint", 1, 1, 6, "obj-179", "live.grid", "constraint", 2, 1, 6, "obj-179", "live.grid", "constraint", 3, 1, 6, "obj-179", "live.grid", "constraint", 4, 1, 6, "obj-179", "live.grid", "constraint", 5, 1, 6, "obj-179", "live.grid", "constraint", 6, 1, 6, "obj-179", "live.grid", "constraint", 7, 1, 6, "obj-179", "live.grid", "constraint", 8, 1, 4, "obj-179", "live.grid", "clear", 12, "obj-179", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-181", "live.grid", "mode", 0, 5, "obj-181", "live.grid", "matrixmode", 1, 5, "obj-181", "live.grid", "columns", 8, 5, "obj-181", "live.grid", "rows", 1, 6, "obj-181", "live.grid", "constraint", 1, 1, 6, "obj-181", "live.grid", "constraint", 2, 1, 6, "obj-181", "live.grid", "constraint", 3, 1, 6, "obj-181", "live.grid", "constraint", 4, 1, 6, "obj-181", "live.grid", "constraint", 5, 1, 6, "obj-181", "live.grid", "constraint", 6, 1, 6, "obj-181", "live.grid", "constraint", 7, 1, 6, "obj-181", "live.grid", "constraint", 8, 1, 4, "obj-181", "live.grid", "clear", 12, "obj-181", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 12, "obj-184", "multislider", "list", 8, 11, 17, 24, 7, 15, 7, 15, 12, "obj-246", "multislider", "list", 4, 6, 8, 6, 4, 8, 6, 4, 5, "obj-248", "live.grid", "mode", 0, 5, "obj-248", "live.grid", "matrixmode", 1, 5, "obj-248", "live.grid", "columns", 8, 5, "obj-248", "live.grid", "rows", 1, 6, "obj-248", "live.grid", "constraint", 1, 1, 6, "obj-248", "live.grid", "constraint", 2, 1, 6, "obj-248", "live.grid", "constraint", 3, 1, 6, "obj-248", "live.grid", "constraint", 4, 1, 6, "obj-248", "live.grid", "constraint", 5, 1, 6, "obj-248", "live.grid", "constraint", 6, 1, 6, "obj-248", "live.grid", "constraint", 7, 1, 6, "obj-248", "live.grid", "constraint", 8, 1, 4, "obj-248", "live.grid", "clear", 12, "obj-248", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 179, 5, "obj-79", "number", "int", 3, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 0, 5, "obj-44", "radiogroup", "int", 0, 5, "obj-36", "number", "int", 2, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 4, 5, 4, 4, 4, 4, 4, 3, 12, "obj-65", "multislider", "list", 8, 7, 7, 7, 7, 6, 5, 5, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 2, 1, 1, 1, 1, 2, 2, 2, 5, "obj-136", "number", "int", 3, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 3, 5, "obj-144", "radiogroup", "int", 1, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 2, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 11, 5, "obj-21", "number", "int", 6, 5, "<invalid>", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 64.0, 5, "obj-95", "dial", "float", 34.0, 5, "obj-99", "dial", "float", 85.0, 5, "obj-122", "dial", "float", 92.0, 5, "obj-130", "dial", "float", 81.0, 5, "obj-145", "dial", "float", 64.0, 5, "obj-150", "dial", "float", 113.0, 5, "obj-155", "dial", "float", 101.0, 5, "obj-164", "dial", "float", 17.0, 5, "obj-179", "live.grid", "mode", 0, 5, "obj-179", "live.grid", "matrixmode", 1, 5, "obj-179", "live.grid", "columns", 8, 5, "obj-179", "live.grid", "rows", 1, 6, "obj-179", "live.grid", "constraint", 1, 1, 6, "obj-179", "live.grid", "constraint", 2, 1, 6, "obj-179", "live.grid", "constraint", 3, 1, 6, "obj-179", "live.grid", "constraint", 4, 1, 6, "obj-179", "live.grid", "constraint", 5, 1, 6, "obj-179", "live.grid", "constraint", 6, 1, 6, "obj-179", "live.grid", "constraint", 7, 1, 6, "obj-179", "live.grid", "constraint", 8, 1, 4, "obj-179", "live.grid", "clear", 12, "obj-179", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-181", "live.grid", "mode", 0, 5, "obj-181", "live.grid", "matrixmode", 1, 5, "obj-181", "live.grid", "columns", 8, 5, "obj-181", "live.grid", "rows", 1, 6, "obj-181", "live.grid", "constraint", 1, 1, 6, "obj-181", "live.grid", "constraint", 2, 1, 6, "obj-181", "live.grid", "constraint", 3, 1, 6, "obj-181", "live.grid", "constraint", 4, 1, 6, "obj-181", "live.grid", "constraint", 5, 1, 6, "obj-181", "live.grid", "constraint", 6, 1, 6, "obj-181", "live.grid", "constraint", 7, 1, 6, "obj-181", "live.grid", "constraint", 8, 1, 4, "obj-181", "live.grid", "clear", 12, "obj-181", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 12, "obj-184", "multislider", "list", 8, 11, 17, 24, 7, 15, 7, 15, 12, "obj-246", "multislider", "list", 4, 6, 8, 6, 4, 8, 6, 4, 5, "obj-248", "live.grid", "mode", 0, 5, "obj-248", "live.grid", "matrixmode", 1, 5, "obj-248", "live.grid", "columns", 8, 5, "obj-248", "live.grid", "rows", 1, 6, "obj-248", "live.grid", "constraint", 1, 1, 6, "obj-248", "live.grid", "constraint", 2, 1, 6, "obj-248", "live.grid", "constraint", 3, 1, 6, "obj-248", "live.grid", "constraint", 4, 1, 6, "obj-248", "live.grid", "constraint", 5, 1, 6, "obj-248", "live.grid", "constraint", 6, 1, 6, "obj-248", "live.grid", "constraint", 7, 1, 6, "obj-248", "live.grid", "constraint", 8, 1, 4, "obj-248", "live.grid", "clear", 12, "obj-248", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1 ]
 						}
 , 						{
 							"number" : 7,
-							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 98, 5, "obj-79", "number", "int", 2, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 2, 5, "obj-44", "radiogroup", "int", 2, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 5, 6, 7, 7, 7, 7, 8, 8, 12, "obj-65", "multislider", "list", 3, 2, 2, 1, 1, 1, 1, 1, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-136", "number", "int", 1, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 3, 5, "obj-144", "radiogroup", "int", 1, 5, "obj-143", "toggle", "int", 1, 5, "obj-141", "number", "int", 2, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 30, 5, "obj-21", "number", "int", 4, 5, "obj-14", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 66.0, 5, "obj-95", "dial", "float", 39.0, 5, "obj-99", "dial", "float", 80.0, 5, "obj-122", "dial", "float", 117.0, 5, "obj-130", "dial", "float", 111.0, 5, "obj-145", "dial", "float", 97.0, 5, "obj-150", "dial", "float", 106.0, 5, "obj-155", "dial", "float", 29.0, 5, "obj-164", "dial", "float", 74.0, 5, "obj-179", "live.grid", "mode", 0, 5, "obj-179", "live.grid", "matrixmode", 1, 5, "obj-179", "live.grid", "columns", 8, 5, "obj-179", "live.grid", "rows", 1, 6, "obj-179", "live.grid", "constraint", 1, 1, 6, "obj-179", "live.grid", "constraint", 2, 1, 6, "obj-179", "live.grid", "constraint", 3, 1, 6, "obj-179", "live.grid", "constraint", 4, 1, 6, "obj-179", "live.grid", "constraint", 5, 1, 6, "obj-179", "live.grid", "constraint", 6, 1, 6, "obj-179", "live.grid", "constraint", 7, 1, 6, "obj-179", "live.grid", "constraint", 8, 1, 4, "obj-179", "live.grid", "clear", 12, "obj-179", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-181", "live.grid", "mode", 0, 5, "obj-181", "live.grid", "matrixmode", 1, 5, "obj-181", "live.grid", "columns", 8, 5, "obj-181", "live.grid", "rows", 1, 6, "obj-181", "live.grid", "constraint", 1, 1, 6, "obj-181", "live.grid", "constraint", 2, 1, 6, "obj-181", "live.grid", "constraint", 3, 1, 6, "obj-181", "live.grid", "constraint", 4, 1, 6, "obj-181", "live.grid", "constraint", 5, 1, 6, "obj-181", "live.grid", "constraint", 6, 1, 6, "obj-181", "live.grid", "constraint", 7, 1, 6, "obj-181", "live.grid", "constraint", 8, 1, 4, "obj-181", "live.grid", "clear", 12, "obj-181", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 98, 5, "obj-79", "number", "int", 2, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 2, 5, "obj-44", "radiogroup", "int", 2, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 5, 6, 7, 7, 7, 7, 8, 8, 12, "obj-65", "multislider", "list", 3, 2, 2, 1, 1, 1, 1, 1, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-136", "number", "int", 1, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 3, 5, "obj-144", "radiogroup", "int", 1, 5, "obj-143", "toggle", "int", 1, 5, "obj-141", "number", "int", 2, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 30, 5, "obj-21", "number", "int", 4, 5, "<invalid>", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 66.0, 5, "obj-95", "dial", "float", 39.0, 5, "obj-99", "dial", "float", 80.0, 5, "obj-122", "dial", "float", 117.0, 5, "obj-130", "dial", "float", 111.0, 5, "obj-145", "dial", "float", 97.0, 5, "obj-150", "dial", "float", 106.0, 5, "obj-155", "dial", "float", 29.0, 5, "obj-164", "dial", "float", 74.0, 5, "obj-179", "live.grid", "mode", 0, 5, "obj-179", "live.grid", "matrixmode", 1, 5, "obj-179", "live.grid", "columns", 8, 5, "obj-179", "live.grid", "rows", 1, 6, "obj-179", "live.grid", "constraint", 1, 1, 6, "obj-179", "live.grid", "constraint", 2, 1, 6, "obj-179", "live.grid", "constraint", 3, 1, 6, "obj-179", "live.grid", "constraint", 4, 1, 6, "obj-179", "live.grid", "constraint", 5, 1, 6, "obj-179", "live.grid", "constraint", 6, 1, 6, "obj-179", "live.grid", "constraint", 7, 1, 6, "obj-179", "live.grid", "constraint", 8, 1, 4, "obj-179", "live.grid", "clear", 12, "obj-179", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-181", "live.grid", "mode", 0, 5, "obj-181", "live.grid", "matrixmode", 1, 5, "obj-181", "live.grid", "columns", 8, 5, "obj-181", "live.grid", "rows", 1, 6, "obj-181", "live.grid", "constraint", 1, 1, 6, "obj-181", "live.grid", "constraint", 2, 1, 6, "obj-181", "live.grid", "constraint", 3, 1, 6, "obj-181", "live.grid", "constraint", 4, 1, 6, "obj-181", "live.grid", "constraint", 5, 1, 6, "obj-181", "live.grid", "constraint", 6, 1, 6, "obj-181", "live.grid", "constraint", 7, 1, 6, "obj-181", "live.grid", "constraint", 8, 1, 4, "obj-181", "live.grid", "clear", 12, "obj-181", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1 ]
 						}
 , 						{
 							"number" : 8,
-							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 281, 5, "obj-79", "number", "int", 2, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 1, 5, "obj-44", "radiogroup", "int", 1, 5, "obj-36", "number", "int", 2, 5, "obj-71", "number", "int", 4, 12, "obj-63", "multislider", "list", 2, 1, 4, 3, 2, 1, 1, 1, 12, "obj-65", "multislider", "list", 5, 5, 5, 5, 4, 4, 3, 3, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 4, 2, 2, 2, 4, 3, 4, 5, 5, "obj-136", "number", "int", 3, 5, "obj-140", "radiogroup", "int", 1, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 2, 5, "obj-143", "toggle", "int", 1, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 2, 5, "obj-12", "number", "int", 18, 5, "obj-21", "number", "int", 6, 5, "obj-14", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 70.0, 5, "obj-95", "dial", "float", 27.0, 5, "obj-99", "dial", "float", 99.0, 5, "obj-122", "dial", "float", 126.0, 5, "obj-130", "dial", "float", 87.0, 5, "obj-145", "dial", "float", 56.0, 5, "obj-150", "dial", "float", 18.0, 5, "obj-155", "dial", "float", 96.0, 5, "obj-164", "dial", "float", 57.0, 5, "obj-179", "live.grid", "mode", 0, 5, "obj-179", "live.grid", "matrixmode", 1, 5, "obj-179", "live.grid", "columns", 8, 5, "obj-179", "live.grid", "rows", 1, 6, "obj-179", "live.grid", "constraint", 1, 1, 6, "obj-179", "live.grid", "constraint", 2, 1, 6, "obj-179", "live.grid", "constraint", 3, 1, 6, "obj-179", "live.grid", "constraint", 4, 1, 6, "obj-179", "live.grid", "constraint", 5, 1, 6, "obj-179", "live.grid", "constraint", 6, 1, 6, "obj-179", "live.grid", "constraint", 7, 1, 6, "obj-179", "live.grid", "constraint", 8, 1, 4, "obj-179", "live.grid", "clear", 12, "obj-179", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-181", "live.grid", "mode", 0, 5, "obj-181", "live.grid", "matrixmode", 1, 5, "obj-181", "live.grid", "columns", 8, 5, "obj-181", "live.grid", "rows", 1, 6, "obj-181", "live.grid", "constraint", 1, 1, 6, "obj-181", "live.grid", "constraint", 2, 1, 6, "obj-181", "live.grid", "constraint", 3, 1, 6, "obj-181", "live.grid", "constraint", 4, 1, 6, "obj-181", "live.grid", "constraint", 5, 1, 6, "obj-181", "live.grid", "constraint", 6, 1, 6, "obj-181", "live.grid", "constraint", 7, 1, 6, "obj-181", "live.grid", "constraint", 8, 1, 4, "obj-181", "live.grid", "clear", 12, "obj-181", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1 ]
+							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 281, 5, "obj-79", "number", "int", 2, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 1, 5, "obj-44", "radiogroup", "int", 1, 5, "obj-36", "number", "int", 2, 5, "obj-71", "number", "int", 4, 12, "obj-63", "multislider", "list", 2, 1, 4, 3, 2, 1, 1, 1, 12, "obj-65", "multislider", "list", 5, 5, 5, 5, 4, 4, 3, 3, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 4, 2, 2, 2, 4, 3, 4, 5, 5, "obj-136", "number", "int", 3, 5, "obj-140", "radiogroup", "int", 1, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 2, 5, "obj-143", "toggle", "int", 1, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 2, 5, "obj-12", "number", "int", 18, 5, "obj-21", "number", "int", 6, 5, "<invalid>", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 70.0, 5, "obj-95", "dial", "float", 27.0, 5, "obj-99", "dial", "float", 99.0, 5, "obj-122", "dial", "float", 126.0, 5, "obj-130", "dial", "float", 87.0, 5, "obj-145", "dial", "float", 56.0, 5, "obj-150", "dial", "float", 18.0, 5, "obj-155", "dial", "float", 96.0, 5, "obj-164", "dial", "float", 57.0, 5, "obj-179", "live.grid", "mode", 0, 5, "obj-179", "live.grid", "matrixmode", 1, 5, "obj-179", "live.grid", "columns", 8, 5, "obj-179", "live.grid", "rows", 1, 6, "obj-179", "live.grid", "constraint", 1, 1, 6, "obj-179", "live.grid", "constraint", 2, 1, 6, "obj-179", "live.grid", "constraint", 3, 1, 6, "obj-179", "live.grid", "constraint", 4, 1, 6, "obj-179", "live.grid", "constraint", 5, 1, 6, "obj-179", "live.grid", "constraint", 6, 1, 6, "obj-179", "live.grid", "constraint", 7, 1, 6, "obj-179", "live.grid", "constraint", 8, 1, 4, "obj-179", "live.grid", "clear", 12, "obj-179", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1, 5, "obj-181", "live.grid", "mode", 0, 5, "obj-181", "live.grid", "matrixmode", 1, 5, "obj-181", "live.grid", "columns", 8, 5, "obj-181", "live.grid", "rows", 1, 6, "obj-181", "live.grid", "constraint", 1, 1, 6, "obj-181", "live.grid", "constraint", 2, 1, 6, "obj-181", "live.grid", "constraint", 3, 1, 6, "obj-181", "live.grid", "constraint", 4, 1, 6, "obj-181", "live.grid", "constraint", 5, 1, 6, "obj-181", "live.grid", "constraint", 6, 1, 6, "obj-181", "live.grid", "constraint", 7, 1, 6, "obj-181", "live.grid", "constraint", 8, 1, 4, "obj-181", "live.grid", "clear", 12, "obj-181", "live.grid", "directions", 1, 1, 1, 1, 1, 1, 1, 1 ]
 						}
 , 						{
 							"number" : 9,
-							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 189, 5, "obj-79", "number", "int", 3, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 2, 5, "obj-44", "radiogroup", "int", 2, 5, "obj-36", "number", "int", 2, 5, "obj-71", "number", "int", 2, 12, "obj-63", "multislider", "list", 1, 6, 2, 1, 2, 3, 4, 1, 12, "obj-65", "multislider", "list", 7, 5, 6, 5, 7, 3, 2, 4, 5, "obj-115", "radiogroup", "int", 1, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 7, 2, 4, 4, 6, 6, 1, 7, 5, "obj-136", "number", "int", 2, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 1, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 2, 5, "obj-66", "radiogroup", "int", 2, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 19, 5, "obj-21", "number", "int", 6, 5, "obj-14", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 56.0, 5, "obj-95", "dial", "float", 18.0, 5, "obj-99", "dial", "float", 86.0, 5, "obj-122", "dial", "float", 55.0, 5, "obj-130", "dial", "float", 16.0, 5, "obj-145", "dial", "float", 125.0, 5, "obj-150", "dial", "float", 21.0, 5, "obj-155", "dial", "float", 69.0, 5, "obj-164", "dial", "float", 59.0 ]
+							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 189, 5, "obj-79", "number", "int", 3, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 2, 5, "obj-44", "radiogroup", "int", 2, 5, "obj-36", "number", "int", 2, 5, "obj-71", "number", "int", 2, 12, "obj-63", "multislider", "list", 1, 6, 2, 1, 2, 3, 4, 1, 12, "obj-65", "multislider", "list", 7, 5, 6, 5, 7, 3, 2, 4, 5, "obj-115", "radiogroup", "int", 1, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 7, 2, 4, 4, 6, 6, 1, 7, 5, "obj-136", "number", "int", 2, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 0, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 1, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 2, 5, "obj-66", "radiogroup", "int", 2, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 19, 5, "obj-21", "number", "int", 6, 5, "<invalid>", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 56.0, 5, "obj-95", "dial", "float", 18.0, 5, "obj-99", "dial", "float", 86.0, 5, "obj-122", "dial", "float", 55.0, 5, "obj-130", "dial", "float", 16.0, 5, "obj-145", "dial", "float", 125.0, 5, "obj-150", "dial", "float", 21.0, 5, "obj-155", "dial", "float", 69.0, 5, "obj-164", "dial", "float", 59.0 ]
 						}
 , 						{
 							"number" : 10,
-							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 120, 5, "obj-79", "number", "int", 6, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 2, 5, "obj-44", "radiogroup", "int", 2, 5, "obj-36", "number", "int", 7, 5, "obj-71", "number", "int", 2, 12, "obj-63", "multislider", "list", 8, 7, 4, 1, 6, 7, 5, 7, 12, "obj-65", "multislider", "list", 4, 2, 1, 7, 3, 7, 4, 4, 5, "obj-115", "radiogroup", "int", 2, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 5, 7, 1, 2, 5, 1, 1, 2, 5, "obj-136", "number", "int", 2, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 1, 5, "obj-137", "number", "int", 2, 5, "obj-144", "radiogroup", "int", 3, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 2, 5, "obj-66", "radiogroup", "int", 2, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 3, 5, "obj-12", "number", "int", 42, 5, "obj-21", "number", "int", 5, 5, "obj-14", "number", "int", 1, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 74.0, 5, "obj-95", "dial", "float", 24.0, 5, "obj-99", "dial", "float", 77.0, 5, "obj-122", "dial", "float", 11.0, 5, "obj-130", "dial", "float", 50.0, 5, "obj-145", "dial", "float", 30.0, 5, "obj-150", "dial", "float", 67.0, 5, "obj-155", "dial", "float", 40.0, 5, "obj-164", "dial", "float", 60.0 ]
+							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 120, 5, "obj-79", "number", "int", 6, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 2, 5, "obj-44", "radiogroup", "int", 2, 5, "obj-36", "number", "int", 7, 5, "obj-71", "number", "int", 2, 12, "obj-63", "multislider", "list", 8, 7, 4, 1, 6, 7, 5, 7, 12, "obj-65", "multislider", "list", 4, 2, 1, 7, 3, 7, 4, 4, 5, "obj-115", "radiogroup", "int", 2, 5, "obj-113", "toggle", "int", 1, 12, "obj-117", "multislider", "list", 5, 7, 1, 2, 5, 1, 1, 2, 5, "obj-136", "number", "int", 2, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 1, 5, "obj-137", "number", "int", 2, 5, "obj-144", "radiogroup", "int", 3, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 2, 5, "obj-66", "radiogroup", "int", 2, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 3, 5, "obj-12", "number", "int", 42, 5, "obj-21", "number", "int", 5, 5, "<invalid>", "number", "int", 1, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 74.0, 5, "obj-95", "dial", "float", 24.0, 5, "obj-99", "dial", "float", 77.0, 5, "obj-122", "dial", "float", 11.0, 5, "obj-130", "dial", "float", 50.0, 5, "obj-145", "dial", "float", 30.0, 5, "obj-150", "dial", "float", 67.0, 5, "obj-155", "dial", "float", 40.0, 5, "obj-164", "dial", "float", 60.0 ]
 						}
 , 						{
 							"number" : 11,
-							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 137, 5, "obj-79", "number", "int", 2, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 0, 5, "obj-44", "radiogroup", "int", 0, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 3, 2, 4, 5, 4, 3, 1, 1, 12, "obj-65", "multislider", "list", 4, 3, 2, 2, 3, 3, 1, 1, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 0, 12, "obj-117", "multislider", "list", 1, 2, 2, 4, 1, 2, 3, 3, 5, "obj-136", "number", "int", 1, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 1, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 3, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 14, 5, "obj-21", "number", "int", 4, 5, "obj-14", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 42.0, 5, "obj-95", "dial", "float", 33.0, 5, "obj-99", "dial", "float", 2.0, 5, "obj-122", "dial", "float", 18.0, 5, "obj-130", "dial", "float", 88.0, 5, "obj-145", "dial", "float", 84.0, 5, "obj-150", "dial", "float", 7.0, 5, "obj-155", "dial", "float", 107.0, 5, "obj-164", "dial", "float", 120.0 ]
+							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 137, 5, "obj-79", "number", "int", 2, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 0, 5, "obj-44", "radiogroup", "int", 0, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 3, 2, 4, 5, 4, 3, 1, 1, 12, "obj-65", "multislider", "list", 4, 3, 2, 2, 3, 3, 1, 1, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 0, 12, "obj-117", "multislider", "list", 1, 2, 2, 4, 1, 2, 3, 3, 5, "obj-136", "number", "int", 1, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 1, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 3, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 14, 5, "obj-21", "number", "int", 4, 5, "<invalid>", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 42.0, 5, "obj-95", "dial", "float", 33.0, 5, "obj-99", "dial", "float", 2.0, 5, "obj-122", "dial", "float", 18.0, 5, "obj-130", "dial", "float", 88.0, 5, "obj-145", "dial", "float", 84.0, 5, "obj-150", "dial", "float", 7.0, 5, "obj-155", "dial", "float", 107.0, 5, "obj-164", "dial", "float", 120.0 ]
 						}
 , 						{
 							"number" : 12,
-							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 137, 5, "obj-79", "number", "int", 1, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 0, 5, "obj-44", "radiogroup", "int", 0, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 3, 2, 2, 1, 1, 1, 1, 1, 12, "obj-65", "multislider", "list", 3, 2, 3, 3, 3, 3, 1, 1, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 0, 12, "obj-117", "multislider", "list", 1, 2, 3, 3, 3, 3, 2, 3, 5, "obj-136", "number", "int", 1, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 1, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 3, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 14, 5, "obj-21", "number", "int", 4, 5, "obj-14", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 49.0, 5, "obj-95", "dial", "float", 111.0, 5, "obj-99", "dial", "float", 40.0, 5, "obj-122", "dial", "float", 108.0, 5, "obj-130", "dial", "float", 71.0, 5, "obj-145", "dial", "float", 18.0, 5, "obj-150", "dial", "float", 124.0, 5, "obj-155", "dial", "float", 17.0, 5, "obj-164", "dial", "float", 35.0 ]
+							"data" : [ 5, "obj-10", "toggle", "int", 1, 5, "obj-11", "number", "int", 137, 5, "obj-79", "number", "int", 1, 5, "obj-9", "number", "int", 8, 5, "obj-35", "radiogroup", "int", 0, 5, "obj-44", "radiogroup", "int", 0, 5, "obj-36", "number", "int", 1, 5, "obj-71", "number", "int", 1, 12, "obj-63", "multislider", "list", 3, 2, 2, 1, 1, 1, 1, 1, 12, "obj-65", "multislider", "list", 3, 2, 3, 3, 3, 3, 1, 1, 5, "obj-115", "radiogroup", "int", 3, 5, "obj-113", "toggle", "int", 0, 12, "obj-117", "multislider", "list", 1, 2, 3, 3, 3, 3, 2, 3, 5, "obj-136", "number", "int", 1, 5, "obj-140", "radiogroup", "int", 2, 5, "obj-139", "toggle", "int", 1, 5, "obj-137", "number", "int", 1, 5, "obj-144", "radiogroup", "int", 3, 5, "obj-143", "toggle", "int", 0, 5, "obj-141", "number", "int", 1, 5, "obj-66", "radiogroup", "int", 3, 5, "obj-62", "toggle", "int", 1, 5, "obj-60", "number", "int", 1, 5, "obj-12", "number", "int", 14, 5, "obj-21", "number", "int", 4, 5, "<invalid>", "number", "int", 127, 5, "obj-67", "umenu", "int", 1, 5, "obj-2", "umenu", "int", 4, 5, "obj-88", "dial", "float", 49.0, 5, "obj-95", "dial", "float", 111.0, 5, "obj-99", "dial", "float", 40.0, 5, "obj-122", "dial", "float", 108.0, 5, "obj-130", "dial", "float", 71.0, 5, "obj-145", "dial", "float", 18.0, 5, "obj-150", "dial", "float", 124.0, 5, "obj-155", "dial", "float", 17.0, 5, "obj-164", "dial", "float", 35.0 ]
 						}
  ]
 				}
@@ -2840,7 +2816,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 24.0, 516.0, 135.0, 22.0 ],
 					"restore" : 					{
-						"bpm" : [ 83 ],
+						"bpm" : [ 93 ],
 						"button" : [ 1.0 ],
 						"button[1]" : [ 0.0 ],
 						"button[2]" : [ 0.0 ],
@@ -2848,46 +2824,45 @@
 						"button[4]" : [ 0.0 ],
 						"button[5]" : [ 0.0 ],
 						"button[6]" : [ 0.0 ],
-						"dial" : [ 82 ],
-						"dial[1]" : [ 90 ],
-						"dial[2]" : [ 96 ],
-						"dial[3]" : [ 52 ],
-						"dial[4]" : [ 89 ],
-						"dial[5]" : [ 40 ],
-						"dial[6]" : [ 50 ],
-						"dial[7]" : [ 18 ],
-						"dial[8]" : [ 78 ],
+						"dial" : [ 65 ],
+						"dial[1]" : [ 117 ],
+						"dial[2]" : [ 89 ],
+						"dial[3]" : [ 96 ],
+						"dial[4]" : [ 2 ],
+						"dial[5]" : [ 57 ],
+						"dial[6]" : [ 34 ],
+						"dial[7]" : [ 86 ],
+						"dial[8]" : [ 95 ],
 						"live.grid" : [ 3, 8, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2 ],
 						"live.grid[1]" : [ 3, 8, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2 ],
 						"live.grid[2]" : [ 3, 8, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2 ],
-						"multislider" : [ 3, 2, 4, 3, 3, 3, 2, 2 ],
-						"multislider[1]" : [ 2, 2, 2, 2, 2, 2, 2, 2 ],
+						"multislider" : [ 5, 5, 5, 5, 4, 4, 4, 4 ],
+						"multislider[1]" : [ 6, 6, 5, 4, 4, 4, 4, 5 ],
 						"multislider[2]" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
-						"multislider[3]" : [ 9, 9, 10, 10, 10, 10, 10, 10 ],
-						"multislider[4]" : [ 4, 4, 4, 5, 5, 5, 5, 5 ],
+						"multislider[3]" : [ 30, 27, 6, 5, 13, 13, 13, 13 ],
+						"multislider[4]" : [ 8, 3, 7, 6, 2, 4, 6, 8 ],
 						"multislider[5]" : [ 1 ],
 						"number" : [ 1 ],
 						"number[1]" : [ 8 ],
 						"number[2]" : [ 1 ],
-						"number[3]" : [ 1 ],
-						"number[4]" : [ 2 ],
+						"number[3]" : [ 4 ],
+						"number[4]" : [ 3 ],
 						"number[5]" : [ 1 ],
 						"number[6]" : [ 1 ],
-						"number[7]" : [ 1 ],
-						"number[8]" : [ 127 ],
-						"periodDuration" : [ 4 ],
-						"periodSteps" : [ 9 ],
-						"radiogroup" : [ 3 ],
-						"radiogroup[1]" : [ 1 ],
-						"radiogroup[2]" : [ 2 ],
+						"number[7]" : [ 3 ],
+						"periodDuration" : [ 1 ],
+						"periodSteps" : [ 29 ],
+						"radiogroup" : [ 0 ],
+						"radiogroup[1]" : [ 0 ],
+						"radiogroup[2]" : [ 3 ],
 						"radiogroup[3]" : [ 3 ],
 						"repsPerStepDirection" : [ 1 ],
-						"slider" : [ 21 ],
+						"slider" : [ 35 ],
 						"stepsPerMeasureDirection" : [ 1 ],
 						"toggle" : [ 0 ],
-						"toggle[1]" : [ 1 ],
-						"toggle[2]" : [ 0 ],
-						"toggle[3]" : [ 0 ],
+						"toggle[1]" : [ 0 ],
+						"toggle[2]" : [ 1 ],
+						"toggle[3]" : [ 1 ],
 						"toggle[4]" : [ 0 ],
 						"toggle[5]" : [ 0 ],
 						"umenu" : [ 1 ],
@@ -2896,30 +2871,6 @@
 ,
 					"text" : "autopattr @autoname 1",
 					"varname" : "u423001951"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 543.0, 725.0, 150.0, 20.0 ],
-					"text" : "period synth velocity"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 543.0, 750.0, 50.0, 22.0 ],
-					"varname" : "number[8]"
 				}
 
 			}
@@ -4056,7 +4007,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 328.0, 596.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 2,
+					"value" : 3,
 					"varname" : "radiogroup[2]"
 				}
 
@@ -4348,7 +4299,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 449.0, 596.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 1,
+					"value" : 0,
 					"varname" : "radiogroup[1]"
 				}
 
@@ -4732,7 +4683,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 568.0, 596.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 3,
+					"value" : 0,
 					"varname" : "radiogroup"
 				}
 
@@ -4884,9 +4835,9 @@
 										"button[6]" : [ 0.0 ],
 										"button[7]" : [ 0.0 ],
 										"button[8]" : [ 0.0 ],
-										"multislider" : [ 3, 2, 4, 3, 3, 3, 2, 2 ],
-										"multislider[1]" : [ 2, 2, 2, 2, 2, 2, 2, 2 ],
-										"number" : [ 1 ],
+										"multislider" : [ 5, 5, 5, 5, 4, 4, 4, 4 ],
+										"multislider[1]" : [ 6, 6, 5, 4, 4, 4, 4, 5 ],
+										"number" : [ 4 ],
 										"periodLengthCountResetValue" : [ 1 ],
 										"periodOffToggleValue" : [ 0 ],
 										"periodOnToggleValue" : [ 1 ],
@@ -6916,13 +6867,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 1 ],
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-138", 0 ],
 					"source" : [ "obj-140", 0 ]
 				}
@@ -6999,6 +6943,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-151", 1 ],
 					"source" : [ "obj-149", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -7082,6 +7033,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-160", 0 ],
 					"source" : [ "obj-159", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -7689,27 +7647,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-230", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-232", 0 ],
-					"source" : [ "obj-231", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-238", 0 ],
-					"source" : [ "obj-232", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-234", 0 ],
 					"source" : [ "obj-233", 0 ]
 				}
@@ -7735,13 +7672,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-236", 0 ],
 					"source" : [ "obj-237", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-238", 0 ]
 				}
 
 			}
