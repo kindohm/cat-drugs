@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 2183.0, 1289.0 ],
+		"rect" : [ 34.0, 77.0, 2183.0, 1289.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-101",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 963.0, 1110.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 957.0, 1150.0, 63.0, 22.0 ],
+					"text" : "s playKick"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-306",
 					"maxclass" : "newobj",
@@ -262,7 +285,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 173.0, 962.5, 50.0, 22.0 ]
+					"patching_rect" : [ 173.0, 962.5, 50.0, 22.0 ],
+					"varname" : "number[8]"
 				}
 
 			}
@@ -553,7 +577,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 141.0, 837.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 1
+					"value" : 2,
+					"varname" : "radiogroup[4]"
 				}
 
 			}
@@ -592,8 +617,9 @@
 					"patching_rect" : [ 58.5, 1033.0, 153.0, 101.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"settype" : 0,
-					"size" : 7,
-					"thickness" : 10
+					"size" : 5,
+					"thickness" : 10,
+					"varname" : "multislider[6]"
 				}
 
 			}
@@ -664,7 +690,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 192.5, 1160.0, 56.0, 56.0 ]
+					"patching_rect" : [ 192.5, 1160.0, 56.0, 56.0 ],
+					"varname" : "toggle[10]"
 				}
 
 			}
@@ -808,7 +835,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 985.0, 617.0, 24.0, 24.0 ]
+					"patching_rect" : [ 985.0, 617.0, 24.0, 24.0 ],
+					"varname" : "toggle[9]"
 				}
 
 			}
@@ -935,13 +963,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-187",
-					"items" : [ 1, ",", 2, ",", 3, ",", 4 ],
+					"items" : [ 1, ",", 2, ",", 3, ",", 11 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 261.0, 890.0, 100.0, 22.0 ]
+					"patching_rect" : [ 261.0, 890.0, 100.0, 22.0 ],
+					"varname" : "umenu[2]"
 				}
 
 			}
@@ -1001,7 +1030,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 669.0, 839.0, 24.0, 24.0 ]
+					"patching_rect" : [ 669.0, 839.0, 24.0, 24.0 ],
+					"varname" : "toggle[8]"
 				}
 
 			}
@@ -1025,7 +1055,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 520.0, 837.0, 24.0, 24.0 ]
+					"patching_rect" : [ 520.0, 837.0, 24.0, 24.0 ],
+					"varname" : "toggle[7]"
 				}
 
 			}
@@ -1339,7 +1370,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1820.0, 331.0, 50.0, 22.0 ],
-					"text" : "2"
+					"text" : "6"
 				}
 
 			}
@@ -1399,7 +1430,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1453.25, 339.0, 50.0, 22.0 ],
-					"text" : "56"
+					"text" : "24"
 				}
 
 			}
@@ -3672,7 +3703,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"items" : [ "Microsoft GS Wavetable Synth", ",", "loopMIDI Port", ",", "TouchOSC Bridge", ",", "3- Focusrite USB MIDI", ",", "Elektron Digitone" ],
+					"items" : [ "Microsoft GS Wavetable Synth", ",", "loopMIDI Port", ",", "TouchOSC Bridge", ",", "3- Focusrite USB MIDI", ",", "Elektron Analog Rytm MKII" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3722,7 +3753,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-67",
-					"items" : [ "Microsoft GS Wavetable Synth", ",", "loopMIDI Port", ",", "TouchOSC Bridge", ",", "3- Focusrite USB MIDI", ",", "Elektron Digitone" ],
+					"items" : [ "Microsoft GS Wavetable Synth", ",", "loopMIDI Port", ",", "TouchOSC Bridge", ",", "3- Focusrite USB MIDI", ",", "Elektron Analog Rytm MKII" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3815,7 +3846,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 24.0, 516.0, 135.0, 22.0 ],
 					"restore" : 					{
-						"bpm" : [ 185 ],
+						"bpm" : [ 262 ],
 						"button" : [ 1.0 ],
 						"button[1]" : [ 0.0 ],
 						"button[2]" : [ 0.0 ],
@@ -3823,51 +3854,59 @@
 						"button[4]" : [ 0.0 ],
 						"button[5]" : [ 0.0 ],
 						"button[6]" : [ 0.0 ],
-						"dial" : [ 37 ],
-						"dial[1]" : [ 96 ],
-						"dial[2]" : [ 44 ],
-						"dial[3]" : [ 76 ],
-						"dial[4]" : [ 116 ],
-						"dial[5]" : [ 123 ],
-						"dial[6]" : [ 59 ],
-						"dial[7]" : [ 15 ],
-						"dial[8]" : [ 56 ],
-						"dial[9]" : [ 125 ],
+						"dial" : [ 25 ],
+						"dial[1]" : [ 68 ],
+						"dial[2]" : [ 57 ],
+						"dial[3]" : [ 105 ],
+						"dial[4]" : [ 33 ],
+						"dial[5]" : [ 31 ],
+						"dial[6]" : [ 58 ],
+						"dial[7]" : [ 42 ],
+						"dial[8]" : [ 29 ],
+						"dial[9]" : [ 18 ],
 						"live.grid" : [ 3, 8, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2 ],
 						"live.grid[1]" : [ 3, 8, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2 ],
 						"live.grid[2]" : [ 3, 8, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2 ],
-						"multislider" : [ 2, 1, 2, 2, 2, 1, 1, 1 ],
-						"multislider[1]" : [ 2, 3, 3, 3, 2, 1, 2, 2 ],
-						"multislider[2]" : [ 5, 5, 5, 5, 6, 5, 5, 4 ],
-						"multislider[3]" : [ 36, 15, 24, 14, 30, 48, 4, 62 ],
-						"multislider[4]" : [ 3, 3, 8, 8, 8, 6, 3, 8 ],
+						"multislider" : [ 8, 8, 8, 8, 7, 7, 7, 7 ],
+						"multislider[1]" : [ 1, 2, 3, 3, 3, 3, 3, 3 ],
+						"multislider[2]" : [ 1, 3, 2, 2, 3, 3, 4, 4 ],
+						"multislider[3]" : [ 22, 22, 24, 28, 31, 26, 16, 17 ],
+						"multislider[4]" : [ 5, 6, 6, 7, 8, 8, 9, 8 ],
 						"multislider[5]" : [ 3 ],
+						"multislider[6]" : [ 1, 1, 0, 0, 0 ],
 						"number" : [ 3 ],
 						"number[1]" : [ 8 ],
-						"number[2]" : [ 6 ],
-						"number[3]" : [ 7 ],
-						"number[4]" : [ 1 ],
-						"number[5]" : [ 2 ],
+						"number[2]" : [ 3 ],
+						"number[3]" : [ 2 ],
+						"number[4]" : [ 3 ],
+						"number[5]" : [ 1 ],
 						"number[6]" : [ 1 ],
-						"number[7]" : [ 2 ],
-						"periodDuration" : [ 7 ],
-						"periodSteps" : [ 14 ],
-						"radiogroup" : [ 2 ],
-						"radiogroup[1]" : [ 1 ],
-						"radiogroup[2]" : [ 2 ],
-						"radiogroup[3]" : [ 0 ],
-						"repsPerStepDirection" : [ 2 ],
-						"slider" : [ 36 ],
-						"stepsPerMeasureDirection" : [ 2 ],
-						"toggle" : [ 0 ],
-						"toggle[1]" : [ 0 ],
-						"toggle[2]" : [ 0 ],
+						"number[7]" : [ 1 ],
+						"number[8]" : [ 5 ],
+						"periodDuration" : [ 6 ],
+						"periodSteps" : [ 22 ],
+						"radiogroup" : [ 3 ],
+						"radiogroup[1]" : [ 2 ],
+						"radiogroup[2]" : [ 3 ],
+						"radiogroup[3]" : [ 3 ],
+						"radiogroup[4]" : [ 2 ],
+						"repsPerStepDirection" : [ 1 ],
+						"slider" : [ 26 ],
+						"stepsPerMeasureDirection" : [ 1 ],
+						"toggle" : [ 1 ],
+						"toggle[10]" : [ 0 ],
+						"toggle[1]" : [ 1 ],
+						"toggle[2]" : [ 1 ],
 						"toggle[3]" : [ 1 ],
 						"toggle[4]" : [ 1 ],
-						"toggle[5]" : [ 1 ],
+						"toggle[5]" : [ 0 ],
 						"toggle[6]" : [ 1 ],
+						"toggle[7]" : [ 1 ],
+						"toggle[8]" : [ 1 ],
+						"toggle[9]" : [ 1 ],
 						"umenu" : [ 1 ],
-						"umenu[1]" : [ 4 ]
+						"umenu[1]" : [ 4 ],
+						"umenu[2]" : [ 1 ]
 					}
 ,
 					"text" : "autopattr @autoname 1",
@@ -4070,7 +4109,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 453.0, 929.5, 29.5, 22.0 ],
-					"text" : "60"
+					"text" : "36"
 				}
 
 			}
@@ -4457,7 +4496,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 681.0, 596.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 0,
+					"value" : 3,
 					"varname" : "radiogroup[3]"
 				}
 
@@ -4529,7 +4568,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1112.0, 969.5, 29.5, 22.0 ],
-					"text" : "2"
+					"text" : "11"
 				}
 
 			}
@@ -4541,7 +4580,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1056.0, 969.5, 29.5, 22.0 ],
-					"text" : "60"
+					"text" : "36"
 				}
 
 			}
@@ -4576,7 +4615,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1234.0, 969.5, 29.5, 22.0 ],
-					"text" : "4"
+					"text" : "3"
 				}
 
 			}
@@ -4588,7 +4627,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1178.0, 969.5, 29.5, 22.0 ],
-					"text" : "60"
+					"text" : "36"
 				}
 
 			}
@@ -4635,7 +4674,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 936.0, 969.5, 29.5, 22.0 ],
-					"text" : "60"
+					"text" : "36"
 				}
 
 			}
@@ -4996,7 +5035,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 328.0, 596.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 2,
+					"value" : 3,
 					"varname" : "radiogroup[2]"
 				}
 
@@ -5288,7 +5327,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 449.0, 596.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 1,
+					"value" : 2,
 					"varname" : "radiogroup[1]"
 				}
 
@@ -5672,7 +5711,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 568.0, 596.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 2,
+					"value" : 3,
 					"varname" : "radiogroup"
 				}
 
@@ -5824,14 +5863,14 @@
 										"button[6]" : [ 1.0 ],
 										"button[7]" : [ 1.0 ],
 										"button[8]" : [ 1.0 ],
-										"multislider" : [ 2, 1, 2, 2, 2, 1, 1, 1 ],
-										"multislider[1]" : [ 2, 3, 3, 3, 2, 1, 2, 2 ],
-										"number" : [ 7 ],
+										"multislider" : [ 8, 8, 8, 8, 7, 7, 7, 7 ],
+										"multislider[1]" : [ 1, 2, 3, 3, 3, 3, 3, 3 ],
+										"number" : [ 2 ],
 										"periodLengthCountResetValue" : [ 1 ],
 										"periodOffToggleValue" : [ 0 ],
 										"periodOnToggleValue" : [ 1 ],
 										"periodStepCountValueReset" : [ 1 ],
-										"toggle" : [ 0 ],
+										"toggle" : [ 1 ],
 										"toggle[1]" : [ 1 ]
 									}
 ,
@@ -7099,7 +7138,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 870.0, 90.0, 18.0, 50.0 ],
 					"size" : 3,
-					"value" : 2,
+					"value" : 1,
 					"varname" : "stepsPerMeasureDirection"
 				}
 
@@ -7116,7 +7155,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 493.5, 90.0, 18.0, 50.0 ],
 					"size" : 3,
-					"value" : 2,
+					"value" : 1,
 					"varname" : "repsPerStepDirection"
 				}
 
@@ -7565,6 +7604,13 @@
 					"destination" : [ "obj-17", 1 ],
 					"midpoints" : [ 38.5, 192.0, 110.5, 192.0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-101", 0 ]
 				}
 
 			}
