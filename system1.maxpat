@@ -549,7 +549,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 672.0, 453.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 0,
+					"value" : 2,
 					"varname" : "radiogroup[5]"
 				}
 
@@ -1949,7 +1949,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 169.0, 162.5, 29.5, 22.0 ],
-									"text" : "2"
+									"text" : "1"
 								}
 
 							}
@@ -2649,7 +2649,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 107.0, 640.0, 480.0 ],
+										"rect" : [ 1315.0, 85.0, 1210.0, 1280.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2678,6 +2678,18 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 190.0, 90.0, 79.0, 22.0 ],
+													"text" : "r randKickVel"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-17",
 													"maxclass" : "newobj",
@@ -2735,19 +2747,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 115.0, 128.0, 50.0, 22.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-6",
-													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 115.0, 100.0, 80.0, 22.0 ],
-													"text" : "r randKIckVel"
+													"patching_rect" : [ 115.0, 129.0, 50.0, 22.0 ]
 												}
 
 											}
@@ -2778,6 +2778,13 @@
 											}
  ],
 										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
 												"patchline" : 												{
 													"destination" : [ "obj-16", 0 ],
 													"source" : [ "obj-11", 0 ]
@@ -2818,13 +2825,6 @@
 													"destination" : [ "obj-17", 0 ],
 													"order" : 0,
 													"source" : [ "obj-21", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-8", 0 ],
-													"source" : [ "obj-6", 0 ]
 												}
 
 											}
@@ -6173,7 +6173,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 135.0, 862.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 1,
+					"value" : 2,
 					"varname" : "radiogroup[4]"
 				}
 
@@ -6213,7 +6213,7 @@
 					"patching_rect" : [ 135.0, 1043.0, 153.0, 101.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"settype" : 0,
-					"size" : 10,
+					"size" : 15,
 					"thickness" : 10,
 					"varname" : "multislider[6]"
 				}
@@ -6753,7 +6753,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1091.0, 308.5, 50.0, 22.0 ],
-					"text" : "6"
+					"text" : "8"
 				}
 
 			}
@@ -6813,7 +6813,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1285.25, 121.5, 50.0, 22.0 ],
-					"text" : "49"
+					"text" : "57"
 				}
 
 			}
@@ -8474,7 +8474,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 200.25, 26.0, 135.0, 22.0 ],
 					"restore" : 					{
-						"bpm" : [ 213 ],
+						"bpm" : [ 69 ],
 						"button" : [ 1.0 ],
 						"button[1]" : [ 0.0 ],
 						"button[2]" : [ 0.0 ],
@@ -8483,72 +8483,72 @@
 						"button[5]" : [ 0.0 ],
 						"button[6]" : [ 0.0 ],
 						"button[8]" : [ 0.0 ],
-						"dial" : [ 51 ],
-						"dial[10]" : [ 104 ],
-						"dial[11]" : [ 10 ],
-						"dial[12]" : [ 2 ],
-						"dial[13]" : [ 10 ],
-						"dial[14]" : [ 88 ],
-						"dial[15]" : [ 68 ],
-						"dial[16]" : [ 3 ],
-						"dial[17]" : [ 24 ],
-						"dial[18]" : [ 23 ],
-						"dial[19]" : [ 16 ],
-						"dial[1]" : [ 52 ],
-						"dial[20]" : [ 65 ],
-						"dial[21]" : [ 50 ],
-						"dial[22]" : [ 95 ],
-						"dial[23]" : [ 104 ],
-						"dial[24]" : [ 68 ],
-						"dial[25]" : [ 117 ],
-						"dial[26]" : [ 18 ],
-						"dial[2]" : [ 58 ],
-						"dial[3]" : [ 30 ],
-						"dial[4]" : [ 94 ],
-						"dial[5]" : [ 126 ],
-						"dial[6]" : [ 73 ],
-						"dial[7]" : [ 94 ],
-						"dial[8]" : [ 45 ],
-						"dial[9]" : [ 53 ],
+						"dial" : [ 45 ],
+						"dial[10]" : [ 102 ],
+						"dial[11]" : [ 74 ],
+						"dial[12]" : [ 82 ],
+						"dial[13]" : [ 0 ],
+						"dial[14]" : [ 99 ],
+						"dial[15]" : [ 45 ],
+						"dial[16]" : [ 81 ],
+						"dial[17]" : [ 107 ],
+						"dial[18]" : [ 124 ],
+						"dial[19]" : [ 53 ],
+						"dial[1]" : [ 99 ],
+						"dial[20]" : [ 53 ],
+						"dial[21]" : [ 127 ],
+						"dial[22]" : [ 87 ],
+						"dial[23]" : [ 45 ],
+						"dial[24]" : [ 120 ],
+						"dial[25]" : [ 96 ],
+						"dial[26]" : [ 38 ],
+						"dial[2]" : [ 8 ],
+						"dial[3]" : [ 65 ],
+						"dial[4]" : [ 105 ],
+						"dial[5]" : [ 34 ],
+						"dial[6]" : [ 85 ],
+						"dial[7]" : [ 103 ],
+						"dial[8]" : [ 97 ],
+						"dial[9]" : [ 98 ],
 						"live.grid" : [ 3, 8, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2 ],
 						"live.grid[1]" : [ 3, 8, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2 ],
 						"live.grid[2]" : [ 3, 8, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2 ],
-						"multislider" : [ 2, 2, 3, 3, 3, 3, 2, 2 ],
-						"multislider[1]" : [ 2, 2, 3, 3, 3, 3, 1, 1 ],
-						"multislider[2]" : [ 1, 1, 1, 1, 1, 2, 2, 2 ],
-						"multislider[3]" : [ 53, 62, 49, 32, 7, 39, 9, 18 ],
-						"multislider[4]" : [ 5, 7, 6, 7, 8, 5, 3, 8 ],
-						"multislider[6]" : [ 1, 0, 1, 1, 1, 1, 0, 0, 0, 0 ],
+						"multislider" : [ 6, 5, 5, 6, 6, 6, 6, 6 ],
+						"multislider[1]" : [ 8, 8, 8, 8, 7, 7, 8, 7 ],
+						"multislider[2]" : [ 4, 3, 3, 2, 2, 2, 1, 1 ],
+						"multislider[3]" : [ 68, 2, 16, 69, 57, 68, 9, 2 ],
+						"multislider[4]" : [ 7, 5, 4, 8, 8, 6, 9, 2 ],
+						"multislider[6]" : [ 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1 ],
 						"number" : [ 2 ],
 						"number[1]" : [ 8 ],
-						"number[2]" : [ 1 ],
-						"number[3]" : [ 3 ],
-						"number[4]" : [ 2 ],
-						"number[5]" : [ 1 ],
-						"number[6]" : [ 1 ],
-						"number[7]" : [ 2 ],
-						"number[8]" : [ 14 ],
-						"number[9]" : [ 3 ],
-						"periodDuration" : [ 6 ],
-						"periodSteps" : [ 49 ],
-						"radiogroup" : [ 3 ],
-						"radiogroup[1]" : [ 1 ],
+						"number[2]" : [ 2 ],
+						"number[3]" : [ 4 ],
+						"number[4]" : [ 3 ],
+						"number[5]" : [ 2 ],
+						"number[6]" : [ 2 ],
+						"number[7]" : [ 3 ],
+						"number[8]" : [ 19 ],
+						"number[9]" : [ 1 ],
+						"periodDuration" : [ 8 ],
+						"periodSteps" : [ 57 ],
+						"radiogroup" : [ 0 ],
+						"radiogroup[1]" : [ 2 ],
 						"radiogroup[2]" : [ 3 ],
 						"radiogroup[3]" : [ 3 ],
-						"radiogroup[4]" : [ 1 ],
-						"radiogroup[5]" : [ 0 ],
+						"radiogroup[4]" : [ 2 ],
+						"radiogroup[5]" : [ 2 ],
 						"repsPerStepDirection" : [ 1 ],
-						"slider" : [ 26 ],
+						"slider" : [ 12 ],
 						"stepsPerMeasureDirection" : [ 1 ],
-						"toggle" : [ 1 ],
+						"toggle" : [ 0 ],
 						"toggle[10]" : [ 1 ],
-						"toggle[11]" : [ 0 ],
+						"toggle[11]" : [ 1 ],
 						"toggle[12]" : [ 1 ],
 						"toggle[1]" : [ 0 ],
 						"toggle[2]" : [ 1 ],
 						"toggle[3]" : [ 0 ],
-						"toggle[4]" : [ 1 ],
-						"toggle[5]" : [ 1 ],
+						"toggle[4]" : [ 0 ],
+						"toggle[5]" : [ 0 ],
 						"toggle[6]" : [ 1 ],
 						"toggle[7]" : [ 1 ],
 						"toggle[8]" : [ 1 ],
@@ -8602,6 +8602,7 @@
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "number",
+					"minimum" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -9528,7 +9529,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 553.0, 453.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 1,
+					"value" : 2,
 					"varname" : "radiogroup[1]"
 				}
 
@@ -9873,7 +9874,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 787.5, 453.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 3,
+					"value" : 0,
 					"varname" : "radiogroup"
 				}
 
@@ -10025,9 +10026,9 @@
 										"button[6]" : [ 1.0 ],
 										"button[7]" : [ 1.0 ],
 										"button[8]" : [ 1.0 ],
-										"multislider" : [ 2, 2, 3, 3, 3, 3, 2, 2 ],
-										"multislider[1]" : [ 2, 2, 3, 3, 3, 3, 1, 1 ],
-										"number" : [ 3 ],
+										"multislider" : [ 6, 5, 5, 6, 6, 6, 6, 6 ],
+										"multislider[1]" : [ 8, 8, 8, 8, 7, 7, 8, 7 ],
+										"number" : [ 4 ],
 										"periodLengthCountResetValue" : [ 1 ],
 										"periodOffToggleValue" : [ 0 ],
 										"periodOnToggleValue" : [ 1 ],
